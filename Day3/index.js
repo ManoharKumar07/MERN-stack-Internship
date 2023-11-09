@@ -3,4 +3,4 @@ const pathmodule = require('./pathmodule')
 
 osfunction()
 
-pathmodule()
+pathmodule .osfunction()
