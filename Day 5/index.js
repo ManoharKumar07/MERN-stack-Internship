@@ -1,6 +1,11 @@
 const express = require('express')
 // after installing dotenv
 const env =require('dotenv')
+
+//to connect db import it here
+const connectToMongo =require('./db')
+connectToMongo()
+
 env.config()
 
 console.log("kkk")
