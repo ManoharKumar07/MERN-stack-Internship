@@ -1,7 +1,7 @@
 // for mongo db copy connection string from the mongo db
 const mongoose = require('mongoose')   //after installing package mongoose
 const MongoURI ="mongodb://localhost:27017/crud"
-//crud is the name of the database
+//crud is the name of the database dont know clearly
 
 // install one package called mongo
 // npm install mongoose  used to schemma (structure)  
@@ -25,3 +25,5 @@ const connectToMongo = async () =>{
 
 module.exports=connectToMongo
 //after this go to index js and import it there
+
+// name ,ph,password,address,dob,  create schemma for employee
